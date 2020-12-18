@@ -1,15 +1,16 @@
-import React from 'react';
+import React from "react";
 //GlobalStyle
-import GlobalStyle from './components/GlobalStyle';
+import GlobalStyle from "./components/GlobalStyle";
 //import pages
-import AboutMe from './pages/AboutMe'
+import AboutMe from "./pages/AboutMe";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
-     <GlobalStyle/>
-     <AboutMe />
-     
+      <GlobalStyle />
+      <Nav />
+      <AboutMe />
     </div>
   );
 }
