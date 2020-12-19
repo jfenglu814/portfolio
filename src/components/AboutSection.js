@@ -6,13 +6,21 @@ import AboutImage from "../Images/About.jpg";
 
 import { About, Description, Image, Hide } from "../styles";
 
+//Framer Motion
+import { motion } from "framer-motion";
+
 const AboutSection = () => {
   return (
     <About>
       <Description>
         <div className="title">
           <Hide>
-            <h2>Working to make</h2>
+            <motion.h2
+              animate={{ opacity: 1, transition: { duration: 2 } }}
+              initial={{ opacity: 0 }}
+            >
+              Working to make
+            </motion.h2>
           </Hide>
           <Hide>
             <h2>

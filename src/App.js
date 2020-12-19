@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
 import { Switch, Route } from "react-router-dom";
+import MovieDetail from "./pages/MovieDetail";
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
         <Route path="/" exact>
           <AboutMe />
         </Route>
-        <Route path="/work">
+        <Route path="/work" exact>
           <Work />
+        </Route>
+        <Route path="/work/:id">
+          <MovieDetail />
         </Route>
         <Route path="/contact">
           <Contact />
