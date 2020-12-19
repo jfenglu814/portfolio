@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import AboutSection from '../components/AboutSection'
-import ProjectSection from '../components/ProjectsSection'
-import FaqSection from '../components/FaqSection'
+import AboutSection from "../components/AboutSection";
+import SkillsSection from "../components/SkillsSection";
+import FaqSection from "../components/FaqSection";
 
 const AboutMe = () => {
-    return (
+  return (
     <>
-      <AboutSection />    
-      <ProjectSection/>
+      <AboutSection />
+      <SkillsSection />
       <FaqSection />
     </>
-    );
+  );
 };
- 
+
 export default AboutMe;

@@ -6,7 +6,7 @@ const FaqSectopm = () => {
   return (
     <Faq>
       <h2>
-        Any Questions <span>FAQ</span>
+        Relevant Work <span>Experience</span>
       </h2>
       <div className="question">
         <h4>Who am I</h4>

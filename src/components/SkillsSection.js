@@ -10,39 +10,39 @@ import home2 from "../img/home2.png";
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
 
-const ProjectsSection = () => {
+const SkillsSection = () => {
   return (
-    <Projects>
+    <Skills>
       <Description>
         <h2>
-          High <span>quality</span> services
+          <span>Technical</span> Skills
         </h2>
         <Cards>
           <Card>
             <div className="icon">
               <img src={clock} alt="project1" />
-              <h3>Efficient</h3>
+              <h3>Languages</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={teamwork} alt="project2" />
-              <h3>Teamwork</h3>
+              <h3>Frameworks/Libraries</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={diaphram} alt="project3" />
-              <h3>Diaphram</h3>
+              <h3>Databases</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={money} alt="project4" />
-              <h3>Affordable</h3>
+              <h3>Other</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
@@ -51,11 +51,11 @@ const ProjectsSection = () => {
       <Image>
         <img src={home2} alt="picture" />
       </Image>
-    </Projects>
+    </Skills>
   );
 };
 
-const Projects = styled(About)`
+const Skills = styled(About)`
   h2 {
     padding-bottom: 5rem;
   }
@@ -81,4 +81,4 @@ const Card = styled.div`
     }
   }
 `;
-export default ProjectsSection;
+export default SkillsSection;
