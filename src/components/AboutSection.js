@@ -8,34 +8,44 @@ import { About, Description, Image, Hide } from "../styles";
 
 //Framer Motion
 import { motion } from "framer-motion";
+import { titleAnimation, fade, photoAnimation } from "../animation";
 
 const AboutSection = () => {
   return (
     <About>
       <Description>
-        <div className="title">
+        <motion.div>
           <Hide>
-            <motion.h2
-              animate={{ opacity: 1, transition: { duration: 2 } }}
-              initial={{ opacity: 0 }}
-            >
-              Working to make
+            <motion.h2 variants={titleAnimation}>Working to make</motion.h2>
+          </Hide>
+          <Hide>
+            <motion.h2 variants={titleAnimation}>
+              <span>dreams</span> come
             </motion.h2>
           </Hide>
           <Hide>
-            <h2>
-              <span>dreams</span> come
-            </h2>
+            <motion.h2 variants={titleAnimation}>true.</motion.h2>
           </Hide>
-          <Hide>
-            <h2>true.</h2>
-          </Hide>
-        </div>
-        <p>Contact me for any questions.</p>
-        <button>Contact</button>
+        </motion.div>
+        <motion.p variants={fade}>
+          I'm an MSIT student, with a software development focus, working to
+          better understand how to leverage rapidly changing technologies to
+          create positive change in our planet. My friends and colleagues would
+          describe me as a highly driven, imaginative individual who enjoys
+          being challenged with new concepts and ideas. I see technology, not as
+          an end product, but as a tool to generate solutions to relevant
+          problems.
+        </motion.p>
+        <motion.button variants={fade}>Contact</motion.button>
       </Description>
       <Image>
-        <img src={AboutImage} alt="guy with camera" />
+        <motion.img
+          variants={photoAnimation}
+          initial="hidden"
+          animate="show"
+          src={AboutImage}
+          alt="guy with camera"
+        />
       </Image>
     </About>
   );

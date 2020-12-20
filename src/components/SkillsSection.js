@@ -10,9 +10,18 @@ import home2 from "../img/home2.png";
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
 
+import { useScroll } from "./UseScroll";
+import { scrollReveal } from "../animation";
+
 const SkillsSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <Skills>
+    <Skills
+      variants={scrollReveal}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
       <Description>
         <h2>
           <span>Technical</span> Skills
@@ -23,21 +32,21 @@ const SkillsSection = () => {
               <img src={clock} alt="project1" />
               <h3>Languages</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>JavaScript, Java ,Python, C</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={teamwork} alt="project2" />
               <h3>Frameworks/Libraries</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Reactjs, Nodejs, Expressjs</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={diaphram} alt="project3" />
               <h3>Databases</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>PostgreSQL, Microsoft SQLServer</p>
           </Card>
           <Card>
             <div className="icon">

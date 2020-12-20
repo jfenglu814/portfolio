@@ -1,12 +1,21 @@
 import React from "react";
+import { isElement } from "react-dom/test-utils";
 import styled from "styled-components";
 import { About } from "../styles";
+import { useScroll } from "./UseScroll";
+import { scrollReveal } from "../animation";
 
-const FaqSectopm = () => {
+const FaqSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <Faq>
+    <Faq
+      variants={scrollReveal}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
       <h2>
-        Relevant Work <span>Experience</span>
+        Any Questions <span>FAQ</span>
       </h2>
       <div className="question">
         <h4>Who am I</h4>
@@ -83,4 +92,4 @@ const Faq = styled(About)`
   }
 `;
 
-export default FaqSectopm;
+export default FaqSection;
