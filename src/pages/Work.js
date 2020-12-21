@@ -18,6 +18,7 @@ import {
   sliderContainer,
 } from "../animation";
 import { useScroll } from "../components/UseScroll";
+import ScrollTop from "../components/ScrollTop";
 
 const Work = () => {
   const [elements, controls] = useScroll();
@@ -71,6 +72,7 @@ const Work = () => {
           </Hide>
         </Link>
       </Movie>
+      <ScrollTop />
     </StyledWork>
   );
 };
@@ -79,7 +81,10 @@ const StyledWork = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
-  background: white;
+  @media (max-width: 1300px) {
+    padding: 2rem 2rem;
+  }
+
   h2 {
     padding: 1rem 0rem;
   }

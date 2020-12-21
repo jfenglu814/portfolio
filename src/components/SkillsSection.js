@@ -32,7 +32,7 @@ const SkillsSection = () => {
               <img src={clock} alt="project1" />
               <h3>Languages</h3>
             </div>
-            <p>JavaScript, Java ,Python, C</p>
+            <p>Java ,Python, C, Swift, JavaScript</p>
           </Card>
           <Card>
             <div className="icon">
@@ -53,7 +53,7 @@ const SkillsSection = () => {
               <img src={money} alt="project4" />
               <h3>Other</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Git, Linux</p>
           </Card>
         </Cards>
       </Description>
@@ -76,6 +76,9 @@ const Skills = styled(About)`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 1300px) {
+    justify-content: center;
+  }
 `;
 const Card = styled.div`
   flex-basis: 20rem;
@@ -84,8 +87,7 @@ const Card = styled.div`
     align-items: center;
     h3 {
       margin-left: 1rem;
-      background: white;
-      color: black;
+
       padding: 1rem;
     }
   }

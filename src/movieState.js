@@ -9,25 +9,25 @@ import theracer2 from "./img/the-racer2.jpg";
 export const MovieState = () => {
   return [
     {
-      title: "The Athlete",
+      title: "OCAT Mock Risk Assessment",
       mainImg: athlete,
       secondaryImg: athlete2,
       url: "/work/the-athlete",
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Project Deliverables",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Mock Rick assessment app that calculates the risk of cat recidivism. Complete with user authentication, form submission, deletion, and risk assessment microservices.",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Full Stack Architecture",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Constructed with Reactjs, Nodejs, Express/Resitfy for RESTful services, and PostgreSQL for the database",
         },
         {
-          title: "It’s okay lmao.",
+          title: "Microservices",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Two microservices: One for user authentication and authorization. One to give a risk assessment score.",
         },
       ],
     },

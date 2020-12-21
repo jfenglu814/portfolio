@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //import images
 import home1 from "../img/home1.png";
@@ -36,7 +37,9 @@ const AboutSection = () => {
           an end product, but as a tool to generate solutions to relevant
           problems.
         </motion.p>
-        <motion.button variants={fade}>Contact</motion.button>
+        <Link to="/contact">
+          <motion.button variants={fade}>Contact</motion.button>
+        </Link>
       </Description>
       <Image>
         <motion.img

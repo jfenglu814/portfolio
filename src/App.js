@@ -11,11 +11,14 @@ import MovieDetail from "./pages/MovieDetail";
 //animation
 import { AnimatePresence } from "framer-motion";
 
+import ScrollTop from "./components/ScrollTop";
+
 function App() {
   const location = useLocation();
   return (
     <div className="App">
       <GlobalStyle />
+      <ScrollTop />
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Switch Location={location} key={location.pathname}>
