@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 //import images
 import athlete from "../img/athlete-small.png";
+import portfolio from "../Images/Portfolio.png";
+import ocat from "../Images/OcatAssessment.png";
 import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
 
@@ -38,11 +40,24 @@ const Work = () => {
         <Frame4 variants={slider}></Frame4>
       </motion.div>
       <Movie>
+        <motion.h2 variants={fade}>Personal Portfolio</motion.h2>
+        <div className="line"></div>
+        <Link to="/work/good-times">
+          <Hide>
+            <motion.img
+              variants={photoAnimation}
+              src={portfolio}
+              alt="goodtimes"
+            />
+          </Hide>
+        </Link>
+      </Movie>
+      <Movie>
         <motion.h2 variants={fade}>OCAT Project</motion.h2>
         <motion.div variants={lineAnimation} className="line"></motion.div>
         <Link to="/work/the-athlete">
           <Hide>
-            <motion.img variants={photoAnimation} src={athlete} alt="athlete" />
+            <motion.img variants={photoAnimation} src={ocat} alt="athlete" />
           </Hide>
         </Link>
       </Movie>
@@ -59,19 +74,7 @@ const Work = () => {
           </Hide>
         </Link>
       </Movie>
-      <Movie>
-        <motion.h2 variants={fade}>OCAT Project</motion.h2>
-        <div className="line"></div>
-        <Link to="/work/good-times">
-          <Hide>
-            <motion.img
-              variants={photoAnimation}
-              src={goodtimes}
-              alt="goodtimes"
-            />
-          </Hide>
-        </Link>
-      </Movie>
+
       <ScrollTop />
     </StyledWork>
   );
@@ -81,7 +84,7 @@ const StyledWork = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
-  @media (max-width: 1300px) {
+  @media (max-width: 1000px) {
     padding: 2rem 2rem;
   }
 

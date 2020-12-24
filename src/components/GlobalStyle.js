@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html{
-    @media (max-width: 1700px){
+    @media (max-width: 1800px){
         font-size: 75%;
     }
 }

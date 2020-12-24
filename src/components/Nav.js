@@ -48,14 +48,14 @@ const NavBar = styled.nav`
   }
   #logo {
     font-size: 1.5rem;
-    font-family: "Lobster", cursive;
+    font-family: "Playfair Display", bold;
     font-weight: lighter;
   }
   li {
     padding-left: 10rem;
     position: relative;
   }
-  @media (max-width: 1300px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     padding: 2rem 1rem;
     #logo {

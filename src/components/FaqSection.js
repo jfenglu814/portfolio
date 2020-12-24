@@ -15,48 +15,29 @@ const FaqSection = () => {
       ref={element}
     >
       <h2>
-        Any Questions <span>FAQ</span>
+        Education and Relevant <span>Experience</span>
       </h2>
       <div className="question">
-        <h4>Who am I</h4>
+        <h4>Education</h4>
         <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>University of Cincinnati. Master's of Information Technology.</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Perferendis, quo?
+            Pennsylvania State University. Bachelor's of Science, Life Science.
           </p>
         </div>
         <div className="faq-line"></div>
       </div>
       <div className="question">
-        <h4>What is my background</h4>
+        <h4>Software Development Internship, UC IT Solutions Center</h4>
         <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Followed agile methodology of the Software Development Cycle</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Perferendis, quo?
+            Implemented performance optimization on PostgreSQL database to
+            increase by performance up to 90%.
           </p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
-      <div className="question">
-        <h4>How Do I Start?</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Perferendis, quo?
-          </p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
-      <div className="question">
-        <h4>Let's do it</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Perferendis, quo?
+            Resolved technical issues in Risk Assessment Application used by
+            multiple government agencies
           </p>
         </div>
         <div className="faq-line"></div>

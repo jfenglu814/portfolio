@@ -5,6 +5,10 @@ import diaphram from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png";
+import database from "../Images/database.svg";
+import react from "../Images/react.svg";
+import java from "../Images/java.svg";
+import git from "../Images/git.svg";
 
 //Styles
 import { About, Description, Image } from "../styles";
@@ -29,28 +33,28 @@ const SkillsSection = () => {
         <Cards>
           <Card>
             <div className="icon">
-              <img src={clock} alt="project1" />
+              <img src={java} alt="project1" />
               <h3>Languages</h3>
             </div>
             <p>Java ,Python, C, Swift, JavaScript</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={teamwork} alt="project2" />
+              <img src={react} alt="project2" />
               <h3>Frameworks/Libraries</h3>
             </div>
             <p>Reactjs, Nodejs, Expressjs</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={diaphram} alt="project3" />
+              <img src={database} alt="project3" />
               <h3>Databases</h3>
             </div>
             <p>PostgreSQL, Microsoft SQLServer</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={money} alt="project4" />
+              <img src={git} alt="project4" />
               <h3>Other</h3>
             </div>
             <p>Git, Linux</p>
@@ -76,7 +80,7 @@ const Skills = styled(About)`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
-  @media (max-width: 1300px) {
+  @media (max-width: 1000px) {
     justify-content: center;
   }
 `;
@@ -87,7 +91,6 @@ const Card = styled.div`
     align-items: center;
     h3 {
       margin-left: 1rem;
-
       padding: 1rem;
     }
   }

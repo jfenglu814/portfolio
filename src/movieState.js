@@ -32,25 +32,24 @@ export const MovieState = () => {
       ],
     },
     {
-      title: "Good Times",
+      title: "Portfolio Website",
       mainImg: goodtimes,
       url: "/work/good-times",
       secondaryImg: goodtimes2,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Deliverables",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Personal portfolio that shows who I am as an aspiring professional developer",
         },
         {
-          title: "Fresh look on a brutal sport.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          title: "Multiple Tools",
+          description: "Written using JavaScript/React.js, HTML, and CSS. ",
         },
         {
-          title: "It’s okay lmao.",
+          title: "Multiple libraries",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Incrorporates multiple third party libraries including Framer Motion and styled components",
         },
       ],
     },
