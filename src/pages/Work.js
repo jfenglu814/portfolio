@@ -3,11 +3,9 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 //import images
-import athlete from "../img/athlete-small.png";
+
 import portfolio from "../Images/Portfolio.png";
 import ocat from "../Images/OcatAssessment.png";
-import theracer from "../img/theracer-small.png";
-import goodtimes from "../img/goodtimes-small.png";
 
 //animations
 import { motion } from "framer-motion";
