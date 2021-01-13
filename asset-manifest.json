@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.1015d333.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1015d333.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.771776be.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.771776be.js.map",
+    "static/js/2.ebfb34a6.chunk.js": "/portfolio/static/js/2.ebfb34a6.chunk.js",
+    "static/js/2.ebfb34a6.chunk.js.map": "/portfolio/static/js/2.ebfb34a6.chunk.js.map",
+    "static/js/3.553f706c.chunk.js": "/portfolio/static/js/3.553f706c.chunk.js",
+    "static/js/3.553f706c.chunk.js.map": "/portfolio/static/js/3.553f706c.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/js/2.ebfb34a6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ebfb34a6.chunk.js.LICENSE.txt",
+    "static/media/About.927f6f7f.jpg": "/portfolio/static/media/About.927f6f7f.jpg",
+    "static/media/FramerMotion.055b81ee.png": "/portfolio/static/media/FramerMotion.055b81ee.png",
+    "static/media/Home2.a38a98e8.png": "/portfolio/static/media/Home2.a38a98e8.png",
+    "static/media/OCATArch.13ad9c22.png": "/portfolio/static/media/OCATArch.13ad9c22.png",
+    "static/media/OCATDetails.3ea9f328.png": "/portfolio/static/media/OCATDetails.3ea9f328.png",
+    "static/media/OcatAssessment.41b98c81.png": "/portfolio/static/media/OcatAssessment.41b98c81.png",
+    "static/media/Portfolio.05b548f3.png": "/portfolio/static/media/Portfolio.05b548f3.png",
+    "static/media/PortfolioCode.476c34d4.png": "/portfolio/static/media/PortfolioCode.476c34d4.png",
+    "static/media/database.78208cac.svg": "/portfolio/static/media/database.78208cac.svg",
+    "static/media/git.1fdb4b4b.svg": "/portfolio/static/media/git.1fdb4b4b.svg",
+    "static/media/java.abe3aa94.svg": "/portfolio/static/media/java.abe3aa94.svg",
+    "static/media/react.33b14590.svg": "/portfolio/static/media/react.33b14590.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.771776be.js",
+    "static/js/2.ebfb34a6.chunk.js",
+    "static/js/main.1015d333.chunk.js"
+  ]
+}
