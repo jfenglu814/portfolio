@@ -21,19 +21,23 @@ const Contact = () => {
       <Hide>
         <Social variants={titleAnimation}>
           <Circle />
-          <h2>Email</h2>
+          <h2>lufg@mail.uc.edu</h2>
         </Social>
       </Hide>
       <Hide>
         <Social variants={titleAnimation}>
           <Circle />
-          <h2>LinkedIn</h2>
+          <a href="https://www.linkedin.com/in/jeffrey-feng-l-7389271b4">
+            <h2>linkedin</h2>
+          </a>
         </Social>
       </Hide>
       <Hide>
         <Social variants={titleAnimation}>
           <Circle />
-          <h2>GitHub</h2>
+          <a href="https://github.com/jfenglu814">
+            <h2>github</h2>
+          </a>
         </Social>
       </Hide>
     </ContactStyle>

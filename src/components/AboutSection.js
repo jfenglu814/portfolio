@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 //import images
-import home1 from "../img/home1.png";
 import AboutImage from "../Images/About.jpg";
 
 import { About, Description, Image, Hide } from "../styles";
@@ -34,8 +33,8 @@ const AboutSection = () => {
           create positive change in our planet. My friends and colleagues would
           describe me as a highly driven, imaginative individual who enjoys
           being challenged with new concepts and ideas. I see technology, not as
-          an end product, but as a tool to generate solutions to relevant
-          problems.
+          an end product, but as the infrastructure to facilitate innovation and
+          change.
         </motion.p>
         <Link to="/contact">
           <motion.button variants={fade}>Contact</motion.button>

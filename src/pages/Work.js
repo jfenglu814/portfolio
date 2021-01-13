@@ -42,7 +42,7 @@ const Work = () => {
       <Movie>
         <motion.h2 variants={fade}>Personal Portfolio</motion.h2>
         <div className="line"></div>
-        <Link to="/work/good-times">
+        <Link to="/work/portfolio">
           <Hide>
             <motion.img
               variants={photoAnimation}
@@ -55,26 +55,12 @@ const Work = () => {
       <Movie>
         <motion.h2 variants={fade}>OCAT Project</motion.h2>
         <motion.div variants={lineAnimation} className="line"></motion.div>
-        <Link to="/work/the-athlete">
+        <Link to="/work/ocat">
           <Hide>
             <motion.img variants={photoAnimation} src={ocat} alt="athlete" />
           </Hide>
         </Link>
       </Movie>
-      <Movie>
-        <motion.h2 variants={fade}>OCAT Project</motion.h2>
-        <div className="line"></div>
-        <Link to="/work/the-racer">
-          <Hide>
-            <motion.img
-              variants={photoAnimation}
-              src={theracer}
-              alt="theracer"
-            />
-          </Hide>
-        </Link>
-      </Movie>
-
       <ScrollTop />
     </StyledWork>
   );
@@ -96,13 +82,13 @@ const Movie = styled.div`
   padding-bottom: 10rem;
   .line {
     height: 0.5rem;
-    background: #23d887;
+    background: #66fcf1;
     margin-bottom: 3rem;
   }
   img {
     width: 100%;
     height: 70vh;
-    object-fit: cover;
+    object-fit: contain;
   }
 `;
 
@@ -130,7 +116,7 @@ const Frame3 = styled(Frame1)`
 `;
 
 const Frame4 = styled(Frame1)`
-  background: #8effa0;
+  background: #66fcf1;
 `;
 
 export default Work;

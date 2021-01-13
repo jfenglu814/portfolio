@@ -1,27 +1,27 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
-import { MovieState } from "../movieState";
+import { WorkState } from "../workState";
 
 //animations
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
 
-const MovieDetail = () => {
+const WorkDetail = () => {
   const history = useHistory();
   const url = history.location.pathname;
-  const [movies, setMovies] = useState(MovieState);
-  const [movie, setMovie] = useState(null);
+  const [works, setWorks] = useState(WorkState);
+  const [work, setWork] = useState(null);
 
   //useEffect
   useEffect(() => {
-    const currentMovie = movies.filter((stateMovie) => stateMovie.url === url);
-    setMovie(currentMovie[0]);
-  }, [movies, url]);
+    const currentWork = works.filter((statework) => statework.url === url);
+    setWork(currentWork[0]);
+  }, [works, url]);
 
   return (
     <>
-      {movie && (
+      {work && (
         <Details
           exit="exit"
           variants={pageAnimation}
@@ -29,11 +29,11 @@ const MovieDetail = () => {
           animate="show"
         >
           <HeadLine>
-            <h2>{movie.title}</h2>
-            <img src={movie.mainImg} alt="movie" />
+            <h2>{work.title}</h2>
+            <img src={work.mainImg} alt="work" />
           </HeadLine>
           <Awards>
-            {movie.awards.map((award) => (
+            {work.awards.map((award) => (
               <Award
                 title={award.title}
                 description={award.description}
@@ -42,7 +42,7 @@ const MovieDetail = () => {
             ))}
           </Awards>
           <ImageDisplay>
-            <img src={movie.secondaryImg} alt="movie" />
+            <img src={work.secondaryImg} alt="work" />
           </ImageDisplay>
         </Details>
       )}
@@ -68,7 +68,7 @@ const HeadLine = styled.div`
   img {
     width: 100%;
     height: 70vh;
-    object-fit: cover;
+    object-fit: contain;
   }
 `;
 
@@ -91,7 +91,7 @@ const AwardStyle = styled.div`
   }
   .line {
     width: 50%;
-    background: #23d997;
+    background: #66fcf1;
     height: 0.5rem;
     margin: 1rem 0rem;
   }
@@ -105,7 +105,7 @@ const ImageDisplay = styled.div`
   img {
     width: 100%;
     height: 100vh;
-    object-fit: cover;
+    object-fit: contain;
   }
 `;
 
@@ -120,4 +120,4 @@ const Award = ({ title, description }) => {
   );
 };
 
-export default MovieDetail;
+export default WorkDetail;

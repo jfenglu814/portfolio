@@ -7,7 +7,7 @@ import Nav from "./components/Nav";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
 import { Switch, Route, useLocation } from "react-router-dom";
-import MovieDetail from "./pages/MovieDetail";
+import WorkDetail from "./pages/WorkDetail";
 //animation
 import { AnimatePresence } from "framer-motion";
 
@@ -29,7 +29,7 @@ function App() {
             <Work />
           </Route>
           <Route path="/work/:id">
-            <MovieDetail />
+            <WorkDetail />
           </Route>
           <Route path="/contact">
             <Contact />
