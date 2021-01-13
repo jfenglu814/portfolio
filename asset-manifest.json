@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.078dc6c8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.078dc6c8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e644e27e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e644e27e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.771776be.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.771776be.js.map",
     "static/js/2.ebfb34a6.chunk.js": "/portfolio/static/js/2.ebfb34a6.chunk.js",
@@ -18,17 +18,14 @@
     "static/media/OcatAssessment.41b98c81.png": "/portfolio/static/media/OcatAssessment.41b98c81.png",
     "static/media/Portfolio.05b548f3.png": "/portfolio/static/media/Portfolio.05b548f3.png",
     "static/media/PortfolioCode.476c34d4.png": "/portfolio/static/media/PortfolioCode.476c34d4.png",
-    "static/media/athlete-small.9c7a85d4.png": "/portfolio/static/media/athlete-small.9c7a85d4.png",
     "static/media/database.78208cac.svg": "/portfolio/static/media/database.78208cac.svg",
     "static/media/git.1fdb4b4b.svg": "/portfolio/static/media/git.1fdb4b4b.svg",
-    "static/media/goodtimes-small.94ab060d.png": "/portfolio/static/media/goodtimes-small.94ab060d.png",
     "static/media/java.abe3aa94.svg": "/portfolio/static/media/java.abe3aa94.svg",
-    "static/media/react.33b14590.svg": "/portfolio/static/media/react.33b14590.svg",
-    "static/media/theracer-small.51874213.png": "/portfolio/static/media/theracer-small.51874213.png"
+    "static/media/react.33b14590.svg": "/portfolio/static/media/react.33b14590.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.771776be.js",
     "static/js/2.ebfb34a6.chunk.js",
-    "static/js/main.078dc6c8.chunk.js"
+    "static/js/main.e644e27e.chunk.js"
   ]
 }
