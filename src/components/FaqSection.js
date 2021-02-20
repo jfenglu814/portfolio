@@ -28,6 +28,18 @@ const FaqSection = () => {
         <div className="faq-line"></div>
       </div>
       <div className="question">
+        <h4>Digital Technology Intern, GE Aviation</h4>
+        <div className="answer">
+          <p>Worked in a cross-functional and global Agile team.</p>
+          <p>Created strategies to simplify and optimize data flow processes</p>
+          <p>
+            Coordinated and developed testing for the implementation of a large
+            SAAS.
+          </p>
+        </div>
+        <div className="faq-line"></div>
+      </div>
+      <div className="question">
         <h4>Software Development Internship, UC IT Solutions Center</h4>
         <div className="answer">
           <p>Followed agile methodology of the Software Development Cycle</p>
