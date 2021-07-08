@@ -42,7 +42,8 @@ export const WorkState = () => {
         },
         {
           title: "Multiple Tools",
-          description: "Written using JavaScript/React.js, HTML, and CSS. ",
+          description:
+            "Written using JavaScript/React.js, HTML, and CSS. Deployed with AWS Amplify",
         },
         {
           title: "Multiple libraries",
