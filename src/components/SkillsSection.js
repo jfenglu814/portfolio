@@ -53,7 +53,7 @@ const SkillsSection = () => {
               <img src={git} alt="project4" />
               <h3>Other</h3>
             </div>
-            <p>Git, Linux</p>
+            <p>AWS Lambda, AWS SNS, Git, Linux</p>
           </Card>
         </Cards>
       </Description>
